@@ -65,15 +65,15 @@ public class Main {
         if (tax2 > tax1) { //comparison between tax options
             int savings = tax2 - tax1; //difference
             System.out.println("We advise you STS income");
-            System.out.println("Your tax will be: " + tax1 + " рублей");
-            System.out.println("Tax on another system: " + tax2 + " рублей");
-            System.out.println("Savings: " + savings + " рублей");
+            System.out.println("Your tax will be: " + tax1 + " rubles");
+            System.out.println("Tax on another system: " + tax2 + " rubles");
+            System.out.println("Savings: " + savings + " rubles");
         } else {
             int savings = tax1 - tax2; //difference
             System.out.println("We advise you STS income minus expenses");
-            System.out.println("Your tax will be: " + tax2 + " рублей");
-            System.out.println("Tax on another system: " + tax1 + " рублей");
-            System.out.println("Savings: " + savings + " рублей");
+            System.out.println("Your tax will be: " + tax2 + " rubles");
+            System.out.println("Tax on another system: " + tax1 + " rubles");
+            System.out.println("Savings: " + savings + " rubles");
         }
         System.out.println(); //empty line for space
     }
